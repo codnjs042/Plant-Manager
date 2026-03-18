@@ -1,8 +1,8 @@
-package com.example.plant.domain.User.dto;
+package com.example.plant.domain.user.dto;
 
-import com.example.plant.domain.User.domain.User;
-import com.example.plant.domain.User.domain.UserRole;
-import com.example.plant.domain.User.domain.UserStatus;
+import com.example.plant.domain.user.domain.User;
+import com.example.plant.domain.user.domain.UserRole;
+import com.example.plant.domain.user.domain.UserStatus;
 
 public record UserResponse(
         Long id,

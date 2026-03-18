@@ -1,4 +1,4 @@
-package com.example.plant.domain.User.domain;
+package com.example.plant.domain.user.domain;
 
 public enum UserStatus {
     ACTIVE,

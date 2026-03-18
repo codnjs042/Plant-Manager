@@ -1,8 +1,8 @@
-package com.example.plant.domain.User.controller;
+package com.example.plant.domain.user.controller;
 
-import com.example.plant.domain.User.dto.UserCreateRequest;
-import com.example.plant.domain.User.dto.UserResponse;
-import com.example.plant.domain.User.service.UserService;
+import com.example.plant.domain.user.dto.UserCreateRequest;
+import com.example.plant.domain.user.dto.UserResponse;
+import com.example.plant.domain.user.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;

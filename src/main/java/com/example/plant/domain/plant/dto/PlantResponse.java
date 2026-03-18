@@ -1,7 +1,7 @@
-package com.example.plant.domain.Plant.dto;
+package com.example.plant.domain.plant.dto;
 
-import com.example.plant.domain.Plant.domain.Plant;
-import com.example.plant.domain.Plant.domain.PlantStatus;
+import com.example.plant.domain.plant.domain.Plant;
+import com.example.plant.domain.plant.domain.PlantStatus;
 
 public record PlantResponse(
         Long id,

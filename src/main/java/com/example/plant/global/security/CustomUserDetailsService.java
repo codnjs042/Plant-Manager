@@ -1,6 +1,6 @@
 package com.example.plant.global.security;
 
-import com.example.plant.domain.User.repository.UserRepository;
+import com.example.plant.domain.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

@@ -1,11 +1,11 @@
-package com.example.plant.domain.User.service;
+package com.example.plant.domain.user.service;
 
-import com.example.plant.domain.User.domain.User;
-import com.example.plant.domain.User.domain.UserRole;
-import com.example.plant.domain.User.domain.UserStatus;
-import com.example.plant.domain.User.dto.UserCreateRequest;
-import com.example.plant.domain.User.dto.UserResponse;
-import com.example.plant.domain.User.repository.UserRepository;
+import com.example.plant.domain.user.domain.User;
+import com.example.plant.domain.user.domain.UserRole;
+import com.example.plant.domain.user.domain.UserStatus;
+import com.example.plant.domain.user.dto.UserCreateRequest;
+import com.example.plant.domain.user.dto.UserResponse;
+import com.example.plant.domain.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

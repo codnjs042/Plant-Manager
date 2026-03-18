@@ -1,6 +1,6 @@
-package com.example.plant.domain.User.dto;
+package com.example.plant.domain.user.dto;
 
-import com.example.plant.domain.User.domain.UserRole;
+import com.example.plant.domain.user.domain.UserRole;
 import io.swagger.v3.oas.annotations.media.Schema;
 
 public record UserCreateRequest(

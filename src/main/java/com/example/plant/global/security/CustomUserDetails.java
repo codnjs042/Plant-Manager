@@ -1,7 +1,7 @@
 package com.example.plant.global.security;
 
-import com.example.plant.domain.User.domain.User;
-import com.example.plant.domain.User.domain.UserStatus;
+import com.example.plant.domain.user.domain.User;
+import com.example.plant.domain.user.domain.UserStatus;
 import lombok.Getter;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
