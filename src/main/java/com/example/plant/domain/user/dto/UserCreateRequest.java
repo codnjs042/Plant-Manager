@@ -8,7 +8,7 @@ public record UserCreateRequest(
         String username,
         @Schema(example="pw1234!!")
         String password,
-        @Schema(description="사용자 권한", example="USER", allowableValues = {"USER", "OWNER"})
+        @Schema(description="사용자 권한", example="USER", allowableValues = {"USER", "ADMIN"})
         UserRole role
 ) {
 }

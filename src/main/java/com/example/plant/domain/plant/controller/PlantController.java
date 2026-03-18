@@ -16,7 +16,7 @@ import java.util.List;
 
 @Tag(name="Plant API", description ="식물 API")
 @RestController
-@RequestMapping("/plant")
+@RequestMapping("/api/plants")
 @RequiredArgsConstructor
 public class PlantController {
     private final PlantService plantService;
